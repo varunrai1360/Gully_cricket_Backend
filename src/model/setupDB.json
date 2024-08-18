@@ -1,0 +1,10 @@
+{
+    "user":{
+    "email" :"test@gmail.com",
+    "name" :"Manish Rai",
+    "password" :"$2b$10$ZU34hINp1ogMXin7va4E4u2DTulj5/zEIRjHx1jL90lQsPrp9US2O",
+    "mobile" :"9198845638"
+    },
+    "players": [],
+    "match": []
+}

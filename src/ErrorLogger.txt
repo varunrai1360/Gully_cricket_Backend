@@ -1,0 +1,175 @@
+ //     "name": "Dhoni",
+    //     "userId": "1",
+    //     "attributes": {
+    //         "runScored": [
+    //            "10"
+    //         ],
+    //         "teamsPlayedWith": [
+    //            "IND"
+    //         ],
+    //         "ballFaced": [
+    //            "10"
+    //         ],
+    //         "average":"5-",
+    //         "wicket": [
+    //           "1"
+    //         ],
+    //         "oversBowled": ["10"],
+    //         "strikeRate": ["87.56"],
+    //         "datePlayed": ["19/8/2019"]
+    //     }
+    // },
+
+    // {
+    //     "name": "Virat",
+    //     "userId": "2",
+    //     "attributes": {
+    //         "runScored": [
+    //            "10"
+    //         ],
+    //         "teamsPlayedWith": [
+    //            "NZ"
+    //         ],
+    //         "ballFaced": [
+    //            "10"
+    //         ],
+    //         "average":"5-",
+    //         "wicket": [
+    //           "1"
+    //         ],
+    //         "oversBowled": ["10"],
+    //         "strikeRate": ["87.56"],
+    //         "datePlayed": ["19/8/2019"]
+    //     }
+    // }
+
+
+
+    {
+        "matchName": "IND vs NZ",
+        "dateofmatch": "19/8/2019",
+        "teamsPlayed":{"teamA":"1","teamB":"2"},
+        "teams": [{
+            "totalrun": "240",
+            "totalOvers": "50",
+            "teamName": "IND",
+            "teamId": "1",
+            "players": [{
+                "userId":"1"
+            }],
+            "date": ["19/8/2019"]
+        },
+        {
+            "totalrun": "240",
+            "totalOvers": "50",
+            "teamName": "NZ",
+            "teamId": "2",
+            "players": [{
+                "userId":"2"
+            }],
+            "date": ["19/8/2019"]
+        }
+    
+    ]
+    }Error: Player nt added
+    at Object.service.addPlayer (E:\React Native\Ecommerce\Artsoul\Backend\src\service\users.js:42:21)
+    at E:\React Native\Ecommerce\Artsoul\Backend\src\routes\routing.js:52:11
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:317:13)
+    at E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:275:10)
+Error: Player nt added
+    at Object.service.addPlayer (E:\React Native\Ecommerce\Artsoul\Backend\src\service\users.js:42:21)
+    at E:\React Native\Ecommerce\Artsoul\Backend\src\routes\routing.js:52:11
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:317:13)
+    at E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:275:10)
+Error: Player nt added
+    at Object.service.addPlayer (E:\React Native\Ecommerce\Artsoul\Backend\src\service\users.js:43:21)
+    at E:\React Native\Ecommerce\Artsoul\Backend\src\routes\routing.js:52:11
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:317:13)
+    at E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:275:10)
+Error: Player nt added
+    at Object.service.addPlayer (E:\React Native\Ecommerce\Artsoul\Backend\src\service\users.js:43:21)
+    at E:\React Native\Ecommerce\Artsoul\Backend\src\routes\routing.js:53:11
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:317:13)
+    at E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:275:10)
+Error: Please Enter all details
+    at Object.service.addUser (E:\React Native\Ecommerce\Artsoul\Backend\src\service\users.js:10:21)
+    at E:\React Native\Ecommerce\Artsoul\Backend\src\routes\routing.js:35:11
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:317:13)
+    at E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:275:10)
+Error: Player nt added
+    at Object.service.addPlayer (E:\React Native\Ecommerce\Artsoul\Backend\src\service\users.js:53:21)
+    at E:\React Native\Ecommerce\Artsoul\Backend\src\routes\routing.js:62:11
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:317:13)
+    at E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\React Native\Ecommerce\Artsoul\Backend\node_modules\express\lib\router\index.js:275:10)
